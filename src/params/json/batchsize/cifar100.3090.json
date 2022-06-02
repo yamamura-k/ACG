@@ -1,0 +1,19 @@
+{
+    "Rice2020Overfitting": 2000 ,
+    "Rebuffi2021Fixing_70_16_cutmix_ddpm": 80 ,
+    "Rebuffi2021Fixing_28_10_cutmix_ddpm": 300 ,
+    "Wu2020Adversarial": 400 ,
+    "Cui2020Learnable_34_10_LBGAT6": 400 ,
+    "Addepalli2021Towards_WRN34": 400 ,
+    "Addepalli2021Towards_PARN18": 2000 ,
+    "Hendrycks2019Using": 500 ,
+    "Gowal2020Uncovering": 80 ,
+    "Cui2020Learnable_34_20_LBGAT6": 200 ,
+    "Cui2020Learnable_34_10_LBGAT0": 200 ,
+    "Sitawarin2020Improving": 400 ,
+    "Rebuffi2021Fixing_R18_ddpm": 1200,
+    "Chen2020Efficient": 400,
+    "Gowal2020Uncovering_extra": 80,
+    "Chen2021LTD_WRN34_10": 400,
+    "Rade2021Helper_R18_ddpm": 1200
+}

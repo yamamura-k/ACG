@@ -1,0 +1,35 @@
+# attack config
+dataset: cifar10
+storage_dir: ../storage
+n_examples: 10000
+attacker: AUTOConjugate
+eps: 0.03137254901960784
+adv_target: False
+
+# solver config
+solver:
+  params:
+    time_limit: 
+    batch_size: 100
+    num_restart: 2
+    max_iter: 100
+    eot_iter: 1
+    rho: 0.75
+    initial_point: center
+    restart_point: random
+    beta: HS
+    momentum_alpha: 1.0
+    use_clamp: True
+    use_machine_epsilon: False
+    replace_nan: False
+    activate_flag: False
+    criterion:
+      name: cw
+      params:  
+        reduction: mean
+
+
+# attacked model
+## robust bench.
+model_name: Carmon2019Unlabeled
+norm: Linf #L2

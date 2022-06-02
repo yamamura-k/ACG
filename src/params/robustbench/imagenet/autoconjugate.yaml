@@ -1,0 +1,28 @@
+adv_target: false
+attacker: AUTOConjugate
+dataset: imagenet
+eps: 0.01568627450980392
+model_name: Wong2020Fast
+n_examples: 5000
+norm: Linf
+solver:
+  params:
+    activate_flag: false
+    batch_size: 100
+    beta: HS
+    criterion:
+      name: cw
+      params:
+        reduction: mean
+    eot_iter: 1
+    initial_point: center
+    max_iter: 100
+    momentum_alpha: 1.0
+    num_restart: 2
+    replace_nan: false
+    restart_point: random
+    rho: 0.75
+    time_limit: null
+    use_clamp: true
+    use_machine_epsilon: false
+storage_dir: ../storage

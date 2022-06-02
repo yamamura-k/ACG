@@ -1,0 +1,22 @@
+--find-links https://download.pytorch.org/whl/cu113/torch_stable.html
+# for extra data
+gitpython==3.1.24
+
+# for pure execution
+scipy==1.7.3
+cython==0.29.26
+cudra==0.0.4b
+torch==1.10.0+cu113
+torchvision==0.11.1+cu113
+git+https://github.com/RobustBench/robustbench.git
+easydict==1.9
+
+# for parameter
+pyyaml==6.0
+attrdict==2.0.1
+
+# for logging
+colorlog==6.6.0
+
+# for visualization
+matplotlib==3.5.1
