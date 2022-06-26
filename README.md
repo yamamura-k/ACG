@@ -1,6 +1,6 @@
 # Diversified Adversarial Attacks based on Conjugate Gradient Method
 This is the python implementation of our paper, "Diversified Adversarial Attacks based on Conjugate Gradient Method"
-, accepted to ICML2022.
+, accepted to ICML2022. [paper(arxiv)](https://arxiv.org/abs/2206.09628)
 
 <br>
 <br>
@@ -152,9 +152,9 @@ Detach from Container
 
 ## Citation
 ```
-@inproceedings{Yamamura2022,
+@inproceedings{yamamura2022,
     title={Diversified Adversarial Attacks based on Conjugate Gradient Method}, 
-    author={Keiichiro Yamamura, Haruki Sato, Nariaki Tateiwa, Nozomi Hata, Toru Mitsutake, Issa Oe, Hiroki Ishikura, Katsuki Fujisawa},
+    author={Keiichiro Yamamura and Haruki Sato and Nariaki Tateiwa and Nozomi Hata and Toru Mitsutake and Issa Oe and Hiroki Ishikura and Katsuki Fujisawa},
     booktitle={ICML},
     year={2022}
 }
